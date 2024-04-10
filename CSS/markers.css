@@ -23,3 +23,16 @@
 .mapboxgl-popup {
     max-width: 200px;
 }
+
+#marker-mariscos {
+    background-image: url('https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/x7rxfruq5cecvgvajiaj');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
