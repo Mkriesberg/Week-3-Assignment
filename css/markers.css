@@ -36,3 +36,16 @@
 .mapboxgl-popup {
     max-width: 200px;
 }
+
+#marker-angel {
+    background-image: url('https://culinarybackstreets.com/wp-content/uploads/cb_queens_angel_dc_final_biryani_TOP-copy.jpg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
