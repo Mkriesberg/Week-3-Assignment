@@ -1,0 +1,12 @@
+#marker {
+    background-image: url('https://static01.nyt.com/images/2019/01/23/dining/23HUNGRY-slide-P5J2/23HUNGRY-slide-P5J2-superJumbo.jpg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
