@@ -1,16 +1,3 @@
-#marker-train-station {
-    background-image: url('https://new.mta.info/sites/default/files/styles/medium/public/2021-12/mta-blue-logo-rectangle.png');
-    background-size: cover;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.mapboxgl-popup {
-    max-width: 200px;
-}
-
 #marker-joes-rice-roll {
     background-image: url('https://static01.nyt.com/images/2019/01/23/dining/23HUNGRY-slide-P5J2/23HUNGRY-slide-P5J2-superJumbo.jpg');
     background-size: cover;

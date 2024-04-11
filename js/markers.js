@@ -1,12 +1,8 @@
-const train_station = [-73.8298883873377, 40.759575244531234]
 const joes_rice_roll = [-73.82921, 40.75984] 
 const mariscos = [-73.8782069048348, 40.74865358663723]
 const angel = [-73.89097, 40.74721]
 const al_sham = [-73.91156, 40.76808]
 // create the popup
-const popup_trainstation = new mapboxgl.Popup({ offset: 25 }).setText(
-    'Flushing-Main Street'
-);
 const popup_breakfast = new mapboxgl.Popup({ offset: 25 }).setText(
     'Joes Steam Rice Roll'
 );
@@ -21,9 +17,6 @@ const popup_dessert = new mapboxgl.Popup({offset: 25}).setText(
 );
  
 // create DOM element for the marker
- const el_train_station = document.createElement('div');
- el_train_station.id = 'marker-train-station';
-
  const el_joes_rice_roll = document.createElement('div');
  el_joes_rice_roll.id = 'marker-joes-rice-roll';
 
@@ -37,11 +30,6 @@ const popup_dessert = new mapboxgl.Popup({offset: 25}).setText(
  el_al_sham.id = 'marker-al-sham';
 
  // create the marker
- new mapboxgl.Marker(el_train_station)
-     .setLngLat(train_station)
-     .setPopup(popup_trainstation) // sets a popup on this marker
-     .addTo(map);
-
  new mapboxgl.Marker(el_joes_rice_roll)
      .setLngLat(joes_rice_roll)
      .setPopup(popup_breakfast) // sets a popup on this marker
