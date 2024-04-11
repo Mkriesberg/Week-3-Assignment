@@ -24,7 +24,6 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWtyaWVzYmVyZyIsImEiOiJjbHVsdTVocTgweXhzMmlwM
             pitch: 20
         },
         'lunch': {
-            duration: 6000,
             center: [-73.87810, 40.74841],
             bearing: 150,
             zoom: 15,
