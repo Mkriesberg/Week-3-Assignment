@@ -24,19 +24,20 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWtyaWVzYmVyZyIsImEiOiJjbHVsdTVocTgweXhzMmlwM
             center: [-73.87810, 40.74841],
             bearing: 27,
             zoom: 15,
-            pitch: 0
+            pitch: 15
+            
         },
         'dinner': {
             bearing: 27,
             center: [-73.89097, 40.74721],
-            zoom: 13,
-            speed: 0.6,
-            pitch: 40
+            zoom: 15,
+            pitch: 15
         },
         'dessert': {
             bearing: 27,
             center: [-73.91156, 40.76808],
-            zoom: 12.3
+            zoom: 15,
+            pitch: 15
         },
         
     };
