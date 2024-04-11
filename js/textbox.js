@@ -10,7 +10,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWtyaWVzYmVyZyIsImEiOiJjbHVsdTVocTgweXhzMmlwM
     });
 
     const chapters = {
-             
+        'introduction':{
+
+        },
+        
         'breakfast': {
             bearing: 27,
             center: [-73.82921, 40.75984],
