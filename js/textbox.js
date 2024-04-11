@@ -10,13 +10,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWtyaWVzYmVyZyIsImEiOiJjbHVsdTVocTgweXhzMmlwM
     });
 
     const chapters = {
-        'train station': {
-            bearing: 27,
-            center: [-73.8298883873377, 40.759575244531234],
-            zoom: 20,
-            pitch: 20
-        },
-        
+             
         'breakfast': {
             bearing: 27,
             center: [-73.82921, 40.75984],
