@@ -16,9 +16,9 @@ const popup_lunch = new mapboxgl.Popup({ offset: 25 }).setText(
 const popup_dinner = new mapboxgl.Popup({ offset: 25 }).setText(
     'Angel'
 );
-const popup_dessert = new mapboxg1.Popup({offset: 25}).setText(
+const popup_dessert = new mapboxgl.Popup({offset: 25}).setText(
     'Al-Sham Sweets and Pastries'
-)
+);
  
 // create DOM element for the marker
  const el_train_station = document.createElement('div');
