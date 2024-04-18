@@ -32,7 +32,7 @@ section.active {
     }
 section:last-child {
         border-bottom: none;
-        margin-bottom: 200px;
+        margin-bottom: 80vh;
     }
 p{
     font-size: 16px;
